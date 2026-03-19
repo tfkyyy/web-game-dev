@@ -1,17 +1,23 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
   h1 {
-     color: blueviolet;
+     color: #8a2be2;
     }
 
   h2 {
-    color:aquamarine;
+    color:#7fffd4;
   }
 
   p {
-    color: deeppink;
+    color: #ff1493;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: calibri, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
  ;
 }
 
@@ -21,4 +27,8 @@ p {
 
 img {
   width: 800px;
+}
+
+a {
+  text-decoration: none;
 }

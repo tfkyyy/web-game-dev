@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    display: flex;
+    border: 1px solid #000;
+    height: 150px;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000;
+    height: 200px;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+.item
+{
+    background-color: red;
+    border: 1px solid #ff7777;
+    height: 100px;
+    width: 100px;
+}
+
+.footer
+{
+    background-color: purple;
+    border: 1px solid #000;
+    height: 200px
+}

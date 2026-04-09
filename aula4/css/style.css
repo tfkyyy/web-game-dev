@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000;
+    height: 400px;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
+.item {
+    background-color: red;
+    border: 1px solid #ff7777;
+    width: 100px;
+    height: 100px;
+    /*flex: 1;*/
+}
+ 
+.special {
+   /* flex: 2;*/
+   background-color: #a20f0f;
+}
